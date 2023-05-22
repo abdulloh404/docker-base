@@ -25,9 +25,9 @@ $i = 0;
  */
 $i++;
 /* Authentication type */
-$cfg['Servers'][$i]['auth_type'] = 'config';
-$cfg['Servers'][$i]['user'] = 'root';
-$cfg['Servers'][$i]['password'] = 'frankent';
+// $cfg['Servers'][$i]['auth_type'] = 'config';
+// $cfg['Servers'][$i]['user'] = 'root';
+// $cfg['Servers'][$i]['password'] = 'frankent';
 
 /* Server parameters */
 $cfg['Servers'][$i]['host'] = 'mysql';
