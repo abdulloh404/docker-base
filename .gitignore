@@ -1,4 +1,4 @@
-logs
-mysql/*.log
+logs/*.log
+./mysql/
 *.DS_Store
 src
