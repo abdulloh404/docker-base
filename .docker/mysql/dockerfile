@@ -1,0 +1,10 @@
+FROM mariadb:10.3
+
+# Copy the MySQL configuration file
+COPY .docker/mysql/my.conf /etc/mysql/conf.d/my.conf
+
+# Create the .src/nginx/mysql directory
+RUN mkdir -p /var/www/html/.src/nginx/mysql
+
+# Copy the MySQL configuration file to .src/nginx/mysql
+RUN cp /etc/mysql/conf.d/my.conf /var/www/html/.src/nginx/mysql

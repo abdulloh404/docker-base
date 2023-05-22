@@ -1,0 +1,10 @@
+2023/05/22 07:14:02 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2023/05/22 07:21:47 [warn] 38#38: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2023/05/22 07:21:48 [warn] 44#44: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2023/05/22 07:21:59 [warn] 50#50: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2023/05/22 07:22:01 [warn] 56#56: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2023/05/22 07:24:43 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2023/05/22 07:28:02 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2023/05/22 08:01:28 [error] 31#31: *41 open() "/var/www/html/public/uploads/logo/3ed561c8236399a8ea94ac3863332262.png" failed (2: No such file or directory), client: 192.168.112.1, server: localhost, request: "GET /uploads/logo/3ed561c8236399a8ea94ac3863332262.png HTTP/1.1", host: "localhost", referrer: "http://localhost/dashboard"
+2023/05/22 08:01:37 [error] 31#31: *40 open() "/var/www/html/public/uploads/logo/3ed561c8236399a8ea94ac3863332262.png" failed (2: No such file or directory), client: 192.168.112.1, server: localhost, request: "GET /uploads/logo/3ed561c8236399a8ea94ac3863332262.png HTTP/1.1", host: "localhost", referrer: "http://localhost/dashboard"
+2023/05/22 08:01:37 [error] 31#31: *40 open() "/var/www/html/public/uploads/logo/3ed561c8236399a8ea94ac3863332262.png" failed (2: No such file or directory), client: 192.168.112.1, server: localhost, request: "GET /uploads/logo/3ed561c8236399a8ea94ac3863332262.png HTTP/1.1", host: "localhost", referrer: "http://localhost/dashboard"
