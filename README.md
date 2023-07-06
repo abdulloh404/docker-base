@@ -19,6 +19,14 @@ vim .env
 vim src/.env
 `  
 
+# Phpmyadmin Setup 
+`
+vim .docker/mysql/phpmyadmin/config.user.inc.php
+`
+$cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['user'] = 'root';
+$cfg['Servers'][$i]['password'] = '';
+
 # Run Docker  
 `
 docker-compose up -d
@@ -27,23 +35,18 @@ docker-compose up -d
 
 # Dependencies Install
 `
-docker-compose run composer install
+docker-compose run composer update --ignore-platform-reqs
 `  
+
 `
-docker-compose run npm install
+docker-compose run npm update
 `  
 
 # localhost 
 http://localhost:80
 
 
+
 # Phpmyadmin 
 http://localhost:81
 
-# Phpmyadmin Setup 
-`
-vim .docker/mysql/phpmyadmin/config.user.inc.php
-`
-$cfg['Servers'][$i]['auth_type'] = 'config';
-$cfg['Servers'][$i]['user'] = 'root';
-$cfg['Servers'][$i]['password'] = '';
